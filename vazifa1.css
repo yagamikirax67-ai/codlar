@@ -1,0 +1,66 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+
+.block
+{
+width: 1400px;
+height: 600px;
+border: 3px solid red;
+margin: 30px auto;
+}
+
+.box
+{
+width: 200px;
+height: 200px;
+border: 3px solid red;
+text-align: center;
+line-height: 200px;
+float: left;
+background-color: yellow;
+}
+ .box:nth-child(1)
+{
+background-color: green;
+width: 200px;
+height: 100px;
+}
+.box:first-child
+{
+background-color: orange;
+}
+.box:last-child
+{
+background-color: blue;
+}
+.box:nth-child(3)
+{
+background-color: yellowgreen;
+} */
+
+ .box:nth-child(odd)
+{
+background-color: black;
+} */
+ 
+
+
+ .box:nth-child(1)
+{
+background-color: red;
+} 
+
+a:active
+{
+color: red;
+}
+
+a:visited
+{
+color: red;
+}
